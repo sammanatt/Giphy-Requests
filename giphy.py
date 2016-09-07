@@ -59,6 +59,3 @@ def giphy_random(giphy_search_query):
     except requests.exceptions.RequestException:
         print('HTTP Request failed')
 
-
-
-giphy_random("error 404")
